@@ -1,0 +1,11 @@
+#5) Escreva um algoritmo para calcular o fatorial de um número. Se o usuário digitou, por exemplo, #
+#o valor 5, o resultado a ser exibido pelo algoritmo é: 5! é igual a 120 #
+
+contador=1
+resultado=1
+
+fatorial = int(input('Digite um número e mostraremos o fatorial:  '))
+while contador <= fatorial:
+    resultado *= contador
+    contador += 1
+print('resultado do fatorial de {} é {}'.format (fatorial, resultado))
