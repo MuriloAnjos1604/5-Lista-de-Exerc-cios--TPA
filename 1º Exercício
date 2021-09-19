@@ -1,0 +1,7 @@
+1) Escreva um algoritmo que imprima na tela todos os números ímpares até o 49
+
+contador = 1
+acumulador = 0 
+while contador <= 49 :
+    print(contador)
+    contador += 2
