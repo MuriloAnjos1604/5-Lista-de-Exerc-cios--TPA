@@ -1,0 +1,13 @@
+2) Escreva um algoritmo que receba 10 valores digitados pelo usuário e no final exiba o maior número.
+
+num = 0
+contador= 1
+maior = 0
+
+while contador <= 10: 
+    num = int(input("Digite um valor desejado: "))
+    if maior < num:
+        maior = num
+    contador += 1
+
+print ('O maior número entre estes é: {}'.format (maior))
