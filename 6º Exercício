@@ -1,0 +1,11 @@
+# 6) Escreva um programa que receba o preço de dois produtos. Calcule um desconto de 8% no
+# primeiro produto, 11% no segundo e apresente o valor final a ser pago.
+
+val1 = int(input('Digite o preço do primeiro produto: '))
+val2 = int(input('Digite o preço do segundo número: '))
+
+desconto1= (val1 / 100) *92
+desconto2= (val2 / 100) *89
+resultado= (desconto1 + desconto2) 
+
+print ('Com o desconto de 8% e  11%  o total vai ser de {}'.format (resultado))
